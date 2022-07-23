@@ -8,31 +8,34 @@ import ConversationList from "./mobileComponents/conversationListMobile/conversa
 import LateralMenuMobile from "./mobileComponents/lateralMenuMobile/lateralMenuMobile";
 import NavBarMobile from "./mobileComponents/navBarMobile/navBarMobile";
 
+const ThemeContext = React.createContext("light");
 const App = () => {
   return (
     <>
-      <div className="mobile">
-        <div id="navBar-container">
-          <NavBarMobile />
-        </div>
-        <div id="body-container">
-          <div id="lateralMenu-container">
-            <LateralMenuMobile />
+      <ThemeContext.Provider value="light">
+        <div className="mobile">
+          <div id="navBar-container">
+            <NavBarMobile />
           </div>
-          <div id="content">
-            <ConversationList />
-            <ConversationList />
+          <div id="body-container">
+            <div id="lateralMenu-container">
+              <LateralMenuMobile />
+            </div>
+            <div id="content">
+              <ConversationList />
+              <ConversationList />
+            </div>
           </div>
         </div>
-      </div>
-      <CustomNavbar />
-      <div className="content-container">
-        <LateralManu />
+        <CustomNavbar />
+        <div className="content-container">
+          <LateralManu />
 
-        <div className="items-contaner">
-          <ContantItems />
+          <div className="items-contaner">
+            <ContantItems />
+          </div>
         </div>
-      </div>
+      </ThemeContext.Provider>
     </>
   );
 };

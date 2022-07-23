@@ -35,7 +35,7 @@
 
 .containt .conversationList-container {
   overflow: auto;
-  max-height: 85%;
+  height: 75%;
 }
 
 .containt .conversationList-container::-webkit-scrollbar-track {
@@ -165,7 +165,7 @@
 
 .textArea::-webkit-input-placeholder {
   vertical-align: top;
-  transform: translate3d(0, -40px, 0);
+  transform: translate3d(0, -180%, 0);
 }
 
 .toolbar-container {
