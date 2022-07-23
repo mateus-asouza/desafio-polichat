@@ -1,0 +1,49 @@
+p {
+  padding: 10px;
+}
+
+.messageBaloon-container {
+  display: flex;
+  max-width: 60%;
+  min-height: 5rem;
+  flex-direction: row;
+  position: relative;
+  padding: 0 5px 0 15px;
+  margin-top: 20px;
+}
+.baloon-body {
+  background-color: #58677e;
+  max-width: 100%;
+  min-width: 4rem;
+  min-height: 4rem;
+  align-self: center;
+  margin-left: 15px;
+  color: black;
+  border-radius: 10px;
+  padding-top: 0;
+  padding-left: 10px;
+}
+
+.baloon-head {
+  width: 1rem;
+  height: 1rem;
+  border-top: 10px solid #58677e;
+  border-right: 10px solid #58677e;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  margin-top: 16px;
+  margin-left: 0;
+  position: absolute;
+}
+
+.baloon-head-reverse {
+  width: 1rem;
+  height: 1rem;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #58677e;
+  border-top: 10px solid #58677e;
+  border-right: 10px solid transparent;
+  margin-top: 16px;
+  margin-right: 0;
+  position: absolute;
+}

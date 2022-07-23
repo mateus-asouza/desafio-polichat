@@ -1,0 +1,19 @@
+.polichatIconMobile-container {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 100%;
+  border: none;
+  padding: 0 10px;
+}
+
+.polichatIconMobile-container p {
+  font-size: 12px;
+  width: 50%;
+  padding-left: 5px;
+}
+
+.polichatIconMobile-container svg {
+  align-self: center;
+  color: #2b7c88;
+}

@@ -1,0 +1,22 @@
+.searchBar-container {
+  display: flex;
+}
+
+.form-control {
+  height: 100%;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #4a5567;
+  background-color: #2f3a4e;
+  color: #eee;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 0;
+  border-radius: 5px;
+  border: 1px solid #4a5567;
+  background-color: #2f3a4e;
+  color: #eee;
+  font-size: 16px;
+}

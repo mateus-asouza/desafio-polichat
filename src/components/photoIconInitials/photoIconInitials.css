@@ -1,0 +1,16 @@
+.photoIconInitials-container {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-transform: uppercase;
+  color: #5e4156;
+  background-color: #ff6280;
+  text-align: center;
+}
+
+.photoIconInitials-container p {
+  margin: auto;
+  padding: 0;
+  font-weight: bold;
+}

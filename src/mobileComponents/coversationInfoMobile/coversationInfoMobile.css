@@ -1,0 +1,10 @@
+.messageInfo {
+  width: 200%;
+  margin-left: 0;
+}
+
+.messageInfoDate p {
+  font-size: 10px !important;
+  padding-left: 0 !important;
+  margin-left: 0;
+}

@@ -1,0 +1,130 @@
+.navbar {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background-color: #232c3d;
+  color: #d1d5d4;
+}
+
+.navbar .collapse {
+  font-weight: 400;
+}
+
+#navitem-icons-navbar-container li {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.navbar .collapse #navitem-icons-navbar .photoIconInitials-container {
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.navbar .collapse .nav-item svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.navbar .collapse #button-indique-ganhe {
+  width: 15%;
+}
+
+.navbar .collapse #button-indique-ganhe .button {
+  width: 100%;
+  background-color: #fccf58;
+}
+
+.navbar .collapse #bs-whatsapp-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #232c3d;
+  background-color: #03c38c;
+  border-radius: 50%;
+  align-self: center;
+  margin-right: 6px;
+}
+
+.navbar .collapse #canal {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar .collapse #canal div {
+  display: flex;
+}
+
+.navbar .collapse #canal p:first-child {
+  font-size: 13px;
+}
+
+.navbar .collapse #canal p {
+  padding: 0;
+}
+
+.navbar .collapse ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navbar .collapse #dropdown-poli {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+
+.navbar .collapse ul a {
+  color: white;
+}
+
+.navbar .collapse #dropdown-poli .photoIconInitials-container {
+  margin: 0.3rem;
+}
+
+.navbar .collapse #dropdown-poli .photoIconInitials-container p {
+  font-weight: bold;
+}
+
+.navbar .navbar-navItem {
+  display: flex;
+  width: 20%;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.navbar .dropdown-list-navbar {
+  display: flex;
+}
+
+.navbar .dropdown-list-navbar .photoIconInitials-container {
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar .navbar-navItem svg {
+  align-self: center;
+  padding-bottom: 5px;
+  color: #377a86;
+}
+
+.navbar .container-fluid {
+  height: 100%;
+  padding-left: 0;
+}
+
+.navbar .container-fluid .logo {
+  display: flex;
+  height: 99%;
+  width: 76px;
+  margin-left: 0.05%;
+  border-right: 2px solid #3f4a5e;
+  align-items: center;
+}
+
+.navbar-container {
+  height: 8%;
+  border-bottom: 2px solid #3f4a5e;
+}

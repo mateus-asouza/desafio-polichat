@@ -1,0 +1,7 @@
+.img {
+  width: 60px;
+  height: 60px;
+  background-image: url("E:/Estudos/imã/classeroom/desafios/desafio-polichat/public/img/f.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}

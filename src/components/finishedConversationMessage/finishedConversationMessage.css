@@ -1,0 +1,10 @@
+.finished-message-container {
+  width: 90%;
+  height: 7%;
+  text-align: center;
+  background-color: #ff647c;
+  border-radius: 3px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
