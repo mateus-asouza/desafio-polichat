@@ -10,7 +10,7 @@ The objective of this challenge is recreating the PoliChat page. The requeriment
 
 # Netilify's deployment link
 
-- https://app.netlify.com/sites/harmonious-gumption-e57851/overview
+- https://harmonious-gumption-e57851.netlify.app/
 
 # React Help
 
