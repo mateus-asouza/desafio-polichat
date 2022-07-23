@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# About
+
+This is a challenge code of Poli for GoDev students.
+The objective of this challenge is recreating the PoliChat page. The requeriments are:
+
+- Mobile Fist
+- Must use React
+- Must be a Single Page Application
+- Must be deployed to Netilify
+
+# Netilify's deployment link
+
+- https://app.netlify.com/sites/harmonious-gumption-e57851/overview
+
+# React Help
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
