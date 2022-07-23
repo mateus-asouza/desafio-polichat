@@ -53,12 +53,9 @@ const ContantItems = () => {
     onFocus: false,
   });
 
-  // const hanldeShowMessagesOfConversation = (conversation) => {
-  //   setFocusConversation(
-  //     ...focusConversation,
-  //     (focusConversation.messages = conversation.messages)
-  //   );
-  // };
+  const hanldeShowMessagesOfConversation = (conversation) => {
+    setFocusConversation(conversation);
+  };
   return (
     <>
       <div className="containt menssages">
@@ -93,7 +90,7 @@ const ContantItems = () => {
 
         <div className="conversationList-container">
           <ConversationList
-          // hanldeShowMessagesOfConversation={hanldeShowMessagesOfConversation}
+            hanldeShowMessagesOfConversation={hanldeShowMessagesOfConversation}
           />
         </div>
       </div>

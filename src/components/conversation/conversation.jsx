@@ -25,9 +25,13 @@ const Conversation = ({ conversation, handleConversationClick }) => {
             }
           : {}
       }
-      onClick={() => handleConversationClick(conversation.id)}
+
+      // onClick={() => handleConversationClick(conversation.id)}
     >
-      <div className="messageInfo">
+      <div
+        className="messageInfo"
+        onClick={() => handleConversationClick(conversation.id)}
+      >
         <PhotoIcon />
         <div>
           <p>{conversation.name}...</p>

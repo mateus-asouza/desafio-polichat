@@ -3,7 +3,7 @@ import Conversation from "../conversation/conversation";
 
 import "./conversationList.css";
 
-const ConversationList = () => {
+const ConversationList = ({ hanldeShowMessagesOfConversation }) => {
   const [conversationList, setConversationList] = useState([
     {
       id: 6,
@@ -34,6 +34,54 @@ const ConversationList = () => {
       name: "Mateus Alves",
       lastMessageDate: "17/07/2022",
       messages: [
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "i",
+          message: "teste",
+        },
+        {
+          sender: "i",
+          message: "teste",
+        },
+        {
+          sender: "i",
+          message: "teste",
+        },
+        {
+          sender: "i",
+          message: "teste",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
+        {
+          sender: "you",
+          message: "Bom dia",
+        },
         {
           sender: "you",
           message: "Bom dia",
@@ -112,12 +160,19 @@ const ConversationList = () => {
   ]);
 
   const handleConversationClick = (id) => {
+    let focusConversation = {};
     const updateConversation = conversationList.map((conversation) => {
       if (conversation.id === id) return { ...conversation, onFocus: true };
       return { ...conversation, onFocus: false };
     });
     setConversationList(updateConversation);
-    // hanldeShowMessagesOfConversation(updateConversation.messages);
+    for (let i = 0; i <= conversationList.length; i++) {
+      if (conversationList[i].id === id) {
+        focusConversation = conversationList[i];
+        break;
+      }
+    }
+    hanldeShowMessagesOfConversation(focusConversation);
   };
 
   return (

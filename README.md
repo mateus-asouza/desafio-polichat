@@ -8,6 +8,10 @@ The objective of this challenge is recreating the PoliChat page. The requeriment
 - Must be a Single Page Application
 - Must be deployed to Netilify
 
+# Preview
+
+![IMAGE AL TEXT HERE](./public/img/polichat.gif)
+
 # Netilify's deployment link
 
 - https://harmonious-gumption-e57851.netlify.app/
